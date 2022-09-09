@@ -1,4 +1,4 @@
-window.onload = (event) => {
+function funny() {
  var random = Math.floor(Math.random() * 3) + 1;
 if (random == 1) {
    var sound = document.getElementById("1");
@@ -14,5 +14,6 @@ if (random == 1) {
       }
    }
    
+}  
 }
-};
+
